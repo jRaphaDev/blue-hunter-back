@@ -1,0 +1,27 @@
+{
+  "name": "blue-hunter-back",
+  "version": "1.0.0",
+  "description": "challenge of ibm to dev fullstack.",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --exec babel-node --presets es2015,stage-2",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Raphael Freitas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^3.0.2",
+    "mongoose": "^5.0.2",
+    "mongoose-seed": "^0.4.1",
+    "response-time": "^2.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2016": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.14.11"
+  }
+}
