@@ -1,0 +1,15 @@
+version: '2'
+
+volumes:
+  mongostorage:
+
+services:
+
+  mongodb:
+    container_name: blue_hunter_container
+    image: alexpunct/mongo:3.4
+    volumes:
+      - mongostorage:/data/db
+    ports:
+      - "27017:27017"
+    command: mongod
