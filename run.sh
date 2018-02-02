@@ -7,3 +7,6 @@ export DB_PORT='3306';
 
 echo 'starting system... ';
 npm start
+
+
+echo 16c3aa968e47406db20d2fa2dfadf53f
